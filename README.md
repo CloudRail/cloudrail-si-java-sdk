@@ -1,6 +1,9 @@
+[![Maven Central](https://img.shields.io/maven-central/v/com.cloudrail/cloudrail-si-java.svg?style=flat-square)](http://search.maven.org/#search%7Cga%7C1%7Ca:%22cloudrail-si-java%22)
+
 <p align="center">
   <img width="200px" src="http://cloudrail.github.io/img/cloudrail_logo_github.png"/>
 </p>
+
 # CloudRail SI for Java
 Integrate Multiple Services With Just One API
 
