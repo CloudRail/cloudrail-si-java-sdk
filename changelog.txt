@@ -1,3 +1,13 @@
+- 2.17.0 -
+
+* Release the new Microsoft service using the new Microsoft Graph API. The new service so far only implements the CloudStorage interface
+
+- 2.16.3 -
+
+* Fix an infinite loop that occurred in getChildren of GoogleDrive
+* Fix an issue with GoogleDrive where the getChildren and getChildrenPage do not return all metadata correctly
+* Hotfix for getChildrenPage method of Dropbox, OneDrive, OneDriveBusiness and GoogleDrive
+
 - 2.16.2 -
 
 * Repair OneDrive after a sudden change in the OneDrive API that happened without any prior notice
