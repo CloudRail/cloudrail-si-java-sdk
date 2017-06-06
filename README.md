@@ -20,7 +20,7 @@ CloudRail is an API integration solution which abstracts multiple APIs from diff
 ---
 ---
 
-Full documentation can be found at our [wiki](https://documentation.cloudrail.com/java/java/Home)
+Full documentation can be found at our [Website](https://cloudrail.com/integrations)
 
 Learn more about CloudRail on https://cloudrail.com
 
@@ -60,7 +60,7 @@ Point of Interest | Google Places, Foursquare, Yelp
 * Retrieve user and quota information.
 * Generate share links for files and folders.
 
-[Full Documentation](https://documentation.cloudrail.com/java/java/Usage#interfaces-cloudstorage)
+[Full Documentation](https://cloudrail.com/integrations/interfaces/CloudStorage;platformId=Java)
 #### Code Sample
 ```` java
 CloudRail.setAppKey("[CloudRail License Key]");
@@ -106,7 +106,7 @@ new Thread() {
 * List files in a bucket and delete files
 * Get file metadata (last modified, size, etc.)
 
-[Full Documentation](https://documentation.cloudrail.com/java/java/Usage#interfaces-businesscloudstorage)
+[Full Documentation](https://cloudrail.com/integrations/interfaces/BusinessCloudStorage;platformId=Java)
 #### Code Sample
 ```` java
 CloudRail.setAppKey("[CloudRail License Key]");
@@ -157,7 +157,7 @@ new Thread() {
 * Retrieve profile pictures.
 * Login using the Social Network.
 
-[Full Documentation](https://documentation.cloudrail.com/java/java/Usage#interfaces-profile)
+[Full Documentation](https://cloudrail.com/integrations/interfaces/Profile;platformId=Java)
 #### Code Sample
 
 ```` java
@@ -193,7 +193,7 @@ new Thread() {
 * Get a list of connections.
 * Make a post for the user.
 
-[Full Documentation](https://documentation.cloudrail.com/java/java/Usage#interfaces-social)
+[Full Documentation](https://cloudrail.com/integrations/interfaces/Social;platformId=Java)
 #### Code Example:
 
 ```` java
@@ -225,7 +225,7 @@ new Thread() {
 * Refund previously made charges
 * Manage subscriptions
 
-[Full Documentation](https://documentation.cloudrail.com/java/java/Usage#interfaces-payment)
+[Full Documentation](https://cloudrail.com/integrations/interfaces/Payment;platformId=Java)
 #### Code Sample
 
 ```` java
@@ -253,7 +253,7 @@ new Thread() {
 
 * Send Email
 
-[Full Documentation](https://documentation.cloudrail.com/java/java/Usage#interfaces-email)
+[Full Documentation](https://cloudrail.com/integrations/interfaces/Email;platformId=Java)
 #### Code Sample
 
 ````java
@@ -276,12 +276,13 @@ new Thread() {
 
 * Twilio
 * Nexmo
+* Twizo
 
 #### Features
 
 * Send SMS
 
-[Full Documentation](https://documentation.cloudrail.com/java/java/Usage#interfaces-sms)
+[Full Documentation](https://cloudrail.com/integrations/interfaces/SMS;platformId=Java)
 #### Code Sample
 
 ````java
@@ -311,7 +312,7 @@ new Thread() {
 * Get a list of POIs nearby
 * Filter by categories or search term
 
-[Full Documentation](https://documentation.cloudrail.com/java/java/Usage#interfaces-pointsofinterest)
+[Full Documentation](https://cloudrail.com/integrations/interfaces/PointsOfInterest;platformId=Java)
 #### Code Example
 
 ```` java
@@ -342,7 +343,7 @@ More interfaces are coming soon.
 
 * Switch services instantly: One line of code is needed to set up the service you are using. Changing which service is as simple as changing the name to the one you wish to use.
 
-* Simple Documentation: There is no searching around Stack Overflow for the answer. The CloudRail documentation at https://documentation.cloudrail.com/java/java/Home is regularly updated, clean, and simple to use.
+* Simple Documentation: There is no searching around Stack Overflow for the answer. The CloudRail documentation at https://cloudrail.com/integrations is regularly updated, clean, and simple to use.
 
 * No Maintenance Times: The CloudRail Libraries are updated when a provider changes their API.
 
@@ -365,15 +366,15 @@ CloudRail provides a developer portal which offers usage insights for the SDKs a
 
 It's free to sign up and generate a key.
 
-Head over to https://developers.cloudrail.com
+Head over to https://cloudrail.com/signup
 
 ## Pricing
 
-CloudRail is free to use as long as your app is free as well. Learn more about our pricing on https://cloudrail.com/cloudrail-pricing/
+CloudRail is free to use as long as your app is free as well. Learn more about our pricing on https://cloudrail.com/pricing
 
 ## Other Platforms
 
-CloudRail is also available for other platforms like iOS and Android. You can find all libraries on https://cloudrail.github.io
+CloudRail is also available for other platforms like iOS and Android. You can find all libraries on https://cloudrail.com
 
 ## Questions?
 
