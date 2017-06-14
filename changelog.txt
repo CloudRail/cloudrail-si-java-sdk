@@ -1,3 +1,7 @@
+- 2.18.1 -
+
+* Fix the authentication for Twitter which did not allow a user to successfully authenticate
+
 - 2.18.0 -
 
 * Add a search functionality to the CloudStorage interface that is implemented by all relevant services
