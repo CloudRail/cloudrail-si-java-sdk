@@ -1,3 +1,7 @@
+- 2.20.3 -
+
+* Update OneDrive Business to use the new Graph API
+
 - 2.20.2 -
 
 * Initial version of the Messaging interface released containing two services (Telegram and Line). The Messaging interface allows you to easily build a bot for the included services by offering methods to parse incoming messages into a unified format as well as sending messages back to the communication partner
