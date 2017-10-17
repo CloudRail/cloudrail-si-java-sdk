@@ -1,3 +1,9 @@
+- 2.21.0 -
+
+* Full release of the messaging interface including FacebookMessanger, Viber, Line and Telegram
+* Bugfix for Amazon S3: The getChildrenPage() method was not returning more than 1000 files
+* GoogleDrive now uses the state parameter during authentication
+
 - 2.20.3 -
 
 * Update OneDrive Business to use the new Graph API
