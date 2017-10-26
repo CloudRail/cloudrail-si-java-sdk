@@ -42,6 +42,8 @@ Payment | PayPal, Stripe
 Email | Maljet, Sendgrid
 SMS | Twilio, Nexmo
 Point of Interest | Google Places, Foursquare, Yelp
+Video | YouTube, Twitch, Vimeo
+Messaging | FacebookMessenger, Telegram, Line, Viber
 ---
 ### Cloud Storage Interface:
 
@@ -200,9 +202,9 @@ new Thread() {
 CloudRail.setAppKey("[CloudRail License Key]");
 
 
-// final Social social = new Twitter(this, "[clientID]", "[clientSecret]", "[redirectUri]");
-// final Social social = new Facebook(this, "[pageName]", "[clientID]", "[clientSecret]", "[redirectUri]", "[state]");
-final Social social = new Facebook(this, "[clientID]", "[clientSecret]", "[redirectUri]", "[state]");
+// final Social social = new Twitter(redirectReceiver, "[clientID]", "[clientSecret]", "[redirectUri]");
+// final Social social = new FacebookPage(redirectReceiver, "[pageName]", "[clientID]", "[clientSecret]", "[redirectUri]", "[state]");
+final Social social = new Facebook(redirectReceiver, "[clientID]", "[clientSecret]", "[redirectUri]", "[state]");
 new Thread() {
     @Override
     public void run() {
@@ -331,6 +333,73 @@ new Thread() {
 }.start();
 ````
 
+---
+### Video Interface:
+
+* YouTube
+* Twitch
+* Vimeo
+
+#### Features
+
+* Get channel metadata
+* List videos for a channel
+* Get video metadata
+* Search for videos
+* Upload a video
+
+[Full Documentation](https://cloudrail.com/integrations/interfaces/Video;platformId=Java)
+#### Code Example
+
+```` java
+CloudRail.setAppKey("[CloudRail License Key]");
+
+
+// final Video video = new Twitch(redirectReceiver, "[clientID]", "[clientSecret]");
+// final Video video = new Vimeo(redirectReceiver, "[clientID]", "[clientSecret]");
+final Video video = new YouTube(redirectReceiver, "[clientID]", "", "com.cloudrail.example:/auth", "state");
+new Thread() {
+    @Override
+    public void run() {
+        List<VideoMetaData> res = video.searchVideos("CloudRail", 0L, 50L);
+        System.out.println("info", "Videos: " + res.toString());    
+    }
+}.start();
+````
+---
+### Messaging Interface:
+
+* FacebookMessenger
+* Telegram
+* Line
+* Viber
+
+#### Features
+
+* Send text messages
+* Send files, images, videos and audios
+* Parse a message received on your webhook
+* Download the content of an attachment sent to your webhook
+
+[Full Documentation](https://cloudrail.com/integrations/interfaces/Messaging;platformId=Java)
+#### Code Example
+
+```` java
+CloudRail.setAppKey("[CloudRail License Key]");
+
+
+// final Messaging messaging = new Line(null, "[BotToken]");
+// final Messaging messaging = new Telegram(null, "[BotToken]", "[WebhookUrl]");
+// final Messaging messaging = new Viber(null, "[BotToken]", "[WebhookUrl]", "[BotName]");
+final Messaging messaging = new FacebookMessenger(null, "[BotToken]");
+new Thread() {
+    @Override
+    public void run() {
+        Message res = messaging.sendMessage("92hf2f83f9", "Greetings from CloudRail!");
+        System.out.println("info", "Message: " + res.toString());    
+    }
+}.start();
+````
 ---
 
 More interfaces are coming soon.
