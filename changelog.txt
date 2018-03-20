@@ -1,3 +1,8 @@
+- 2.21.5 -
+
+* Bug fixes for GoogleCloudPlatform, Egnyte, GoogleDrive, AmazonS3 and Azure
+* Update Yelp to a new API version
+
 - 2.21.4 -
 
 * Add a new method to the CloudStorage interface that allows uploading files with a custom modified date
