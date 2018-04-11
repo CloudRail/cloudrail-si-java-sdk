@@ -1,3 +1,10 @@
+- 2.21.6 -
+
+* Implement listFilesWithPrefix for Business Cloud Storage
+* Yelp: Added Advance Request Method
+* Google Drive: Fixed exist method
+* OneDrive: Attach state parameter to authentication url
+
 - 2.21.5 -
 
 * Bug fixes for GoogleCloudPlatform, Egnyte, GoogleDrive, AmazonS3 and Azure
