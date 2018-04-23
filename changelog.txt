@@ -1,3 +1,8 @@
+- 2.21.7 -
+
+Facebook: Removed user_about_me scope which shows description. This is removed from Facebook
+Google Cloud: Added object name encoding to google cloud
+
 - 2.21.6 -
 
 * Implement listFilesWithPrefix for Business Cloud Storage
