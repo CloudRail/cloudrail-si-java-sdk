@@ -1,7 +1,11 @@
+- 2.21.8 -
+
+* Google Cloud: Added object name encoding to google cloud
+* OneDriveBusiness: URL encode client secret for the refresh request
+
 - 2.21.7 -
 
-Facebook: Removed user_about_me scope which shows description. This is removed from Facebook
-Google Cloud: Added object name encoding to google cloud
+* Facebook: Removed user_about_me scope which shows description. This is removed from Facebook
 
 - 2.21.6 -
 
