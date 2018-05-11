@@ -1,3 +1,7 @@
+- 2.21.9 -
+
+* MicrosoftAzure: Fix an issue in AdvancedRequest.
+
 - 2.21.8 -
 
 * Google Cloud: Added object name encoding to google cloud
