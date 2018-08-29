@@ -1,3 +1,7 @@
+- 2.21.11 -
+
+* Fixes for OneDriveBusiness and Backblaze
+
 - 2.21.9 -
 
 * MicrosoftAzure: Fix an issue in AdvancedRequest.

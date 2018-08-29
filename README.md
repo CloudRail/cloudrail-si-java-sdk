@@ -439,7 +439,7 @@ Head over to https://cloudrail.com/signup
 
 ## Pricing
 
-CloudRail is free to use as long as your app is free as well. Learn more about our pricing on https://cloudrail.com/pricing
+Learn more about our pricing on https://cloudrail.com/pricing
 
 ## Other Platforms
 
@@ -448,7 +448,3 @@ CloudRail is also available for other platforms like iOS and Android. You can fi
 ## Questions?
 
 Get in touch at any time by emailing us: support@cloudrail.com
-
-or
-
-Tag a question with cloudrail on [StackOverflow](http://stackoverflow.com/questions/tagged/cloudrail)
